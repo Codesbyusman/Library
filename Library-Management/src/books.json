@@ -1,0 +1,34 @@
+{
+  "books": [
+    {
+      "title": "abc def",
+      "Author": "William Shakespeare",
+      "metadata": {
+        "price": 1500,
+        "categories": ["fantasy","sci-fi"],
+        "isbn": 1234567890123,
+        "pages":  283
+      }
+    },
+    {
+      "title": "def gh",
+      "Author": "Wil re",
+      "metadata": {
+        "price": 500,
+        "categories": ["fantasy","sci-fi", "crime"],
+        "isbn": 1234567890124,
+        "pages":  283
+      }
+    },
+    {
+      "title": "ijk lmn",
+      "Author": "Wim Share",
+      "metadata": {
+        "price": 150,
+        "categories": ["Thriller"],
+        "isbn": 1234567890125,
+        "pages":  283
+      }
+    }
+  ]
+}
