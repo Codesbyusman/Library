@@ -4,7 +4,7 @@ public class Metadata {
     // variables
     private double price;
     private ArrayList<String> categories;
-    private int isbn;
+    private long isbn;
     private int pages;
 
 
@@ -35,7 +35,7 @@ public class Metadata {
         return categories;
     }
 
-    public int getIsbn(){
+    public long getIsbn(){
         return isbn;
     }
 
@@ -51,7 +51,7 @@ public class Metadata {
         this.categories.addAll(categories);
     }
 
-    public void setIsbn(int isbn){
+    public void setIsbn(long isbn){
         this.isbn = isbn;
     }
 

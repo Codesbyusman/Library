@@ -1,17 +1,18 @@
 public class Books {
     private String title = "";
     private String author = "";
-    private Metadata book_metadata;
+    private Metadata metadata;
 
     // constructor
     Books(String title, String author, Metadata book_metadata){
         this.title = title;
         this.author = author;
-        this.book_metadata = new Metadata();
-        this.book_metadata.setIsbn(book_metadata.getIsbn());
-        this.book_metadata.setPages(book_metadata.getPages());
-        this.book_metadata.setPrice(book_metadata.getPrice());
-        this.book_metadata.setCategories(book_metadata.getCategories());
+//        this.metadata = book_metadata;
+        this.metadata = new Metadata();
+        this.metadata.setIsbn(book_metadata.getIsbn());
+        this.metadata.setPages(book_metadata.getPages());
+        this.metadata.setPrice(book_metadata.getPrice());
+        this.metadata.setCategories(book_metadata.getCategories());
     }
 
     // setter and getters
@@ -24,7 +25,7 @@ public class Books {
     }
 
     public Metadata getMetadata(){
-        return book_metadata;
+        return metadata;
     }
 
     public void setTitle(String title){
@@ -36,11 +37,11 @@ public class Books {
     }
 
     public void setMetadata(Metadata book_metadata){
-        this.book_metadata = book_metadata;
+        this.metadata = book_metadata;
     }
 
     public void displayBookInfo(){
-        System.out.println("Book: Title: " + title + "\nAuthor: " + author + "\n" + book_metadata.toString());
+        System.out.println("Book: Title: " + title + "\nAuthor: " + author + "\n" + metadata.toString());
     }
 
 
