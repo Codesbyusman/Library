@@ -36,7 +36,7 @@ public class Main {
             System.out.println("\n\nBooks added successfully! from json file\n\n");
             for (Books book : books) {
                 book.displayBookInfo();
-                System.out.println("");
+                System.out.println(" ");
             }
 
 
