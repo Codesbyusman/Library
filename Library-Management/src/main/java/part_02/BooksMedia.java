@@ -33,9 +33,9 @@ public class BooksMedia implements Media {
 //        this.metadata = book_metadata;
 //    }
 //
-//    public void displayBookInfo(){
-//        System.out.println("Book: Title: " + title + "\nAuthor: " + author + "\n" + metadata.toString());
-//    }
+    public void displayBookInfo(){
+        System.out.println("Book: Title: " + title + "\nAuthor: " + author + "\n" );
+    }
 
     // implementing interface functions
 
